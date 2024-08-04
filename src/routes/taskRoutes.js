@@ -3,7 +3,8 @@ import * as taskController from '../controllers/taskController';
 import {
   validateCreateTask,
   validateGetTasks,
-  validateReqParamId, validateTaskStatus,
+  validateReqParamId,
+  validateTaskStatus,
   validateUpdateTask
 } from '../validators/taskValidator';
 
